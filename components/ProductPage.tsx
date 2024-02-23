@@ -95,7 +95,7 @@ const ProductPage = ({ name, desc, images, price }: Props) => {
         </div>
       </div>
 
-      <div className="flex flex-col gap-5 max-w-[90vw] md:max-w-[500px]">
+      <div className="flex flex-col gap-5 max-w-[90vw] md:max-w-[500px] mb-10">
         <h1 className="text-4xl md:text-5xl  font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-800 via-blue-600 to-blue-200">
           {name}
         </h1>
@@ -106,7 +106,7 @@ const ProductPage = ({ name, desc, images, price }: Props) => {
         </p>
         <div className="flex justify-between items-center gap-3 ">
           <button className="p-3 px-6 text-white text-lg bg-blue-500 button transition-5 rounded-[20px] ">
-            Antastic
+            Anntastic
           </button>
         </div>
       </div>

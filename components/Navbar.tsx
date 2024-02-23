@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     <nav className="items-center justify-center flex flex-row md:absolute md:z-10 md:m-5 md:ml-24">
       <div className="flex flex-row justify-between space-x-80 z-10 items-center">
-        <div className="text-lg font-semibold text-white md:hidden block ">
+        <div className="flex-row text-lg font-semibold text-white md:hidden block ">
           <Image
             src="/annlogo.jpg"
             width={100}
@@ -71,7 +71,7 @@ const Navbar = () => {
       <div
         className={
           toggle
-            ? "fixed right-0 top-0 w-[60%] sm:hidden h-[50rem] bg-slate-500 p-10 z-30 ease-in duration-500 bg-gradient-to-bl from-slate-700 to-blue-800 rounded-md"
+            ? "fixed right-0 top-0 w-[60%] sm:hidden h-[50rem] bg-slate-500 p-10 z-30 ease-in duration-500 bg-gradient-to-bl from-slate-700 to-blue-800 rounded-md mt-2"
             : "fixed right-[-100%] h-[50rem] top-0 p-10 ease-in duration-500"
         }
       >
@@ -88,7 +88,7 @@ const Navbar = () => {
             <Link href="/">
               <li
                 onClick={() => setToggle(false)}
-                className="py-4 cursor-pointer text-xl font-medium"
+                className="py-4 cursor-pointer text-xl font-medium "
               >
                 Home
               </li>
