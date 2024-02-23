@@ -18,7 +18,7 @@ const Navbar = () => {
         <div className="flex-row text-lg font-semibold text-white md:hidden block ">
           <Image
             src="/annlogo.jpg"
-            width={100}
+            width={400}
             height={100}
             alt="Logo"
             className="m-3 rounded-full w-full"
