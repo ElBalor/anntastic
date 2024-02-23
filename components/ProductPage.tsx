@@ -77,8 +77,8 @@ const ProductPage = ({ name, desc, images, price }: Props) => {
               className="rounded-xl cursor-pointer w-[80vw] h-[80vw] md:w-[500px] md:h-[500px]"
             />
             {!hasClicked && (
-              <h1 className="text-gray-300 text-lg animate-pulse">
-                - Click to see more -
+              <h1 className="text-white text-xl animate-bounce mt-3">
+                - Click on the Image above -
               </h1>
             )}
           </div>
